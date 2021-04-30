@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItem_refresh"
+        android:icon="@drawable/ic_refresh_rate"
+        android:title="Item"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuItem_boardSize"
+        android:title="select level"
+        app:showAsAction="never" />
+<!--    <item-->
+<!--        android:id="@+id/menuItem_createCustomGame"-->
+<!--        android:title="create custom game"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/menuItem_DownloadGame"-->
+<!--        android:title="Download custome game"-->
+<!--        app:showAsAction="never" />-->
+</menu>
